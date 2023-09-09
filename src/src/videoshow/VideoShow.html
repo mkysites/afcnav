@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MKYsite</title>
+<link rel="icon" href="icon/favicon.ico">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/mainstyle.css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+<body class="active" onLoad="MM_preloadImages('img/topimg/1.jpg','img/topimg/2.jpg','img/topimg/3.jpg','img/topimg/4.jpg','img/topimg/5.jpg','img/topimg/6.jpg')">
+<nav class="navbar navbar-default">
+<div class="container-fluid">  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+     <a class="navbar-brand pc" href="#"><strong>媒体集</strong></a>
+     <h2 class="phone" style="color: dimgray; margin-top:8px;text-align: center;"><strong> &nbsp; &nbsp; &nbsp; &nbsp;媒体集</strong></h2>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="VideoShow.html"><strong>主页</strong></a> </li>
+        <li><a href="navpage.html"><strong>视频站集合</strong></a> </li>
+      </ul>
+	  <ul class="nav navbar-nav navbar-right">
+	    <li><a href="../../homepage.html"><strong>返回导览页<img src="icon/back.jpg" width="12" height="12" alt=""/></strong></a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<section>
+  <h1 style="text-align: center"><strong>六个小视频</strong></h1>
+  <h2 style="text-align: center"><strong>Tips:点击图片查看视频哦！</strong></h2>
+<div class="container">
+<div class="row">
+     <div class="col-md-6 text-center">
+          <a href="player/html/1.html"><img src="img/topimg/1.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>武器A</strong></h3>
+     </div>
+     <div class="col-md-6 text-center">
+          <a href="player/html/2.html"><img src="img/topimg/2.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>武器XI</strong></h3>
+     </div>
+</div>
+<hr>
+<div class="row">
+     <div class="col-md-6 text-center">
+          <a href="player/html/3.html"><img src="img/topimg/3.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>鸡汤来咯</strong></h3>
+     </div>
+     <div class="col-md-6 text-center">
+          <a href="player/html/4.html"><img src="img/topimg/4.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>人类高质量男性</strong></h3>
+     </div>
+</div>
+<hr>
+<div class="row">
+     <div class="col-md-6 text-center">
+          <a data-toggle="modal" data-target="#myModal"><img src="img/topimg/5.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>114514</strong></h3>
+     </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" style="text-align: center;"><strong>请选择播放的类型:</strong></h3>
+              </div>
+                <div class="modal-body">
+                    <form action="#">
+                    <div style="display: block;text-align: center;">
+                    <button type="button" class="btn btn-primary" onClick="window.location.href='player/114514/114514.html'"><strong>音频版</strong></button>
+                    <button type="button" class="btn btn-primary" onClick="window.location.href='player/html/5.html'"><strong>视频版</strong></button>
+                    </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><strong>关闭</strong></button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="col-md-6 text-center">
+          <a href="player/html/6.html"><img src="img/topimg/6.jpg" alt="" width="300" height="300" class="img-rounded"></a>
+          <h3><strong>坤坤打篮球</strong></h3>
+     </div>
+</div>
+</div>
+</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

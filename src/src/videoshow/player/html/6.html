@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MKYsite</title>
+<link rel="icon" href="../../icon/favicon.ico">
+<style>
+  #video-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  video {
+    width: auto;
+    height: auto;
+	max-width: 70%;
+	max-height: 70%;
+  }
+  .btn {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+  }
+</style>
+</head>
+
+<body>
+<h1 style="text-align: center"><strong>坤坤打篮球</strong></h1>
+<div class="btn"><strong><input type="button" value="返回主页" style="color: #FFFFFF; background-color: #286090;" onClick="window.location.href='../../VideoShow.html'"></strong></div>
+<div id="video-player">
+    <video id="video" preload="metadata" controls loop >
+      <source src="../videos/6.mp4">
+  </video>
+</div>
+</body>
+</html>

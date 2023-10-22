@@ -48,14 +48,6 @@ if (storage.bg != undefined) {
 	$('#main').css('background-image', bg[0]);
 }
 
-// 检查是否有新版本
-if (storage.closealert != undefined) {
-	closealert = closealert.split(',');
-	if (closealert[0] == '4.1.2') {
-		$('#alert').remove();
-	}
-}
-
 // rgb to hex
 function rgb2hex(rgb) {
 	rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
@@ -75,16 +67,6 @@ $(function () {
 				link: 'https://www.coolapk.com',
 				box_shadow: '#11B063',
 				icon: 'img/coolapk.png',
-			}, {
-				name: 'Via插件',
-				link: 'http://via-app.cn',
-				box_shadow: '#FA7199',
-				icon: 'img/via.png',
-			}, {
-				name: '今日热榜',
-				link: 'https://tophub.today/',
-				box_shadow: '#F2584A',
-				icon: 'img/headline.png',
 			}, {
 				name: '知乎',
 				link: 'https://www.zhihu.com/',
@@ -115,11 +97,6 @@ $(function () {
 				link: 'https://www.csdn.net/',
 				box_shadow: '#c5000a',
 				icon: 'img/csdn.png',
-			}, {
-				name: 'XDA',
-				link: 'https://www.xda-developers.com/',
-				box_shadow: '#AC6E2F',
-				icon: 'img/xda.png',
 			}, {
 				name: '少数派',
 				link: 'https://sspai.com/',
@@ -159,13 +136,6 @@ $(function () {
 			color: '#3245df',
 			placeholder: '百度一下...'
 		}, {
-			name: 'google',
-			icon: 'img/google-xs.png',
-			searchlink: 'https://www.google.com/search',
-			searchname: 'q',
-			color: '#4285f4',
-			placeholder: '咕噜咕噜...'
-		}, {
 			name: 'bing',
 			icon: 'img/bing-xs.png',
 			searchlink: 'https://cn.bing.com/search',
@@ -173,33 +143,12 @@ $(function () {
 			color: '#00868B',
 			placeholder: 'Bing一下...'
 		}, {
-			name: 'yahoo',
-			icon: 'img/yahoo-xs.png',
-			searchlink: 'https://search.yahoo.com/search',
-			searchname: 'p',
-			color: '#5f01d1',
-			placeholder: 'Yahoo~'
-		}, {
-			name: 'magi',
-			icon: 'img/magi-xs.png',
-			searchlink: 'https://magi.com/search',
-			searchname: 'q',
-			color: 'black',
-			placeholder: 'Mag[i]...'
-		}, {
 			name: 'sougou',
 			icon: 'img/sougou-xs.png',
 			searchlink: 'https://www.sogou.com/web',
 			searchname: 'query',
 			color: '#f94c18',
 			placeholder: 'soso...'
-		}, {
-			name: 'wechat',
-			icon: 'img/wechat-xs.png',
-			searchlink: 'https://weixin.sogou.com/weixin',
-			searchname: 'query',
-			color: '#2ca43a',
-			placeholder: '搜微信文章...'
 		}, {
 			name: 'quark',
 			icon: 'img/quark-xs.png',

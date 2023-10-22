@@ -2,9 +2,9 @@
 ## 说明:
 #### 本网站编自一位业余前端开发者，可能有些许不足之处，恳请各位访客以包容的态度、发展的眼光看这个小破站，谢谢！
 ## 网址:
-### NO.1------[https://afcnav.vercel.app/](https://afcnav.vercel.app/)（国外专用）
-### NO.2------[https://afcnav.4everland.app/](https://afcnav.4everland.app/)（国内专用01）
-### NO.3------[https://afcnav.4everland.app/](https://afcnav.4everland.app/)（国内专用02）
+### NO.1------[https://afchome.vercel.app/](https://afchome.vercel.app/)（国外专用）
+### NO.2------[https://afchome.4everland.app/](https://afchome.4everland.app/)（国内专用01）
+### NO.3------[https://afchome.pages.dev/](https://afchome.pages.dev/)（国内专用02）
 ### NO.4------[https://mkysites.github.io/afcnav/](https://mkysites.github.io/afcnav/)（备用站）
 ## 网站特征:
 #### 除去bootstrap与jquery中无用代码段，网址导航使用Microsoft经典样式，个人blog使用[一言]的语句API服务+Bing的壁纸，整合度更高，网站动画更加自然，可塑性极高。
